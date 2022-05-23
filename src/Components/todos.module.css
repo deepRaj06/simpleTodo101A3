@@ -1,0 +1,130 @@
+body{
+    background-color: #ffffe3;
+}
+/* TodosApp */
+
+.todosBgColor{
+    /* background-color: #cecece; */
+    background: linear-gradient(to bottom, #ffff99 0%, #ff9999 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    width: 30%;
+    min-height: 500px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/* Todos Input */
+
+.mainInput{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    margin: 0.1rem;
+    box-sizing: border-box;
+}
+
+.inputBar{
+    width: 80%;
+    min-height: 50px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: medium;
+    padding: 4px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.inputBtn{
+    width: 12%;
+    min-height: 50px;
+    border-radius: 6px;
+    font: 400;
+    font-size: xx-large;
+    border: none;
+    cursor: pointer;
+}
+
+/* Todos List & Todos Item */
+
+.todosItemMain{
+    display: flex;
+    min-height: 40px;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #fff0ff;
+    border-radius: 6px;
+    min-width: 80%;
+    justify-content: space-between;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    margin-bottom: 0.9rem;
+
+}
+
+.tItemCheck{
+    min-width: 10%;
+    min-height: 40px;
+    border-radius: 6px;
+    font: 400;
+    font-size: xx-large;
+    border: none;
+    cursor: pointer;
+    /* margin-right: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.striked{
+    text-decoration: line-through;
+    min-width: 60%;
+    min-height: 40px;
+    border-radius: 6px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.todoValue{
+    max-width: 60%;
+    min-height: 40px;
+    border-radius: 6px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+.todoValue{
+    inline-size: 180px;
+    overflow-wrap: break-word;
+
+}
+
+.todoRemoveBtn{
+    width: 30%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #1c99c2;
+}
+
+/* Todo List Padding */
+.todoUlPadding{
+    padding: 0;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
